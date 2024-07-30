@@ -54,22 +54,11 @@
 
 
 
-        <button style="border: 2px solid #000;margin-bottom: 20px;" data-bs-toggle="modal" data-bs-target="#quickOrder">
-            Быстрый заказ
+        <button data-modal="Modal" style="border: 2px solid #5b431e; color: #5b431e; margin-bottom: 20px;">
+            Popup
         </button>
 
 
-        <code>
-
-            @@include
-            ('components/page-blocks/_filter-slider.html',{ <br>
-            "start1":"0", <br>
-            "start2":"30000", <br>
-            "min":"1000", <br>
-            "max":"100000", <br>
-            })
-
-        </code>
     </div>
 
 
@@ -78,7 +67,7 @@
 
 
 
-    <div class="modal _active" id="Modal">
+    <div class="modal" id="Modal">
         <div class="modal__bg modal-bg _close-modal"></div>
         <div class="modal__dialog">
             <button class="close-btn _close-modal">
@@ -444,6 +433,29 @@ L 0.00 412.00 Z" />
             <div class="modal__hint">
                 <div class="text18 text15-mob">
                     Либо посмотреть наличие на одной из наших витрин:
+                </div>
+            </div>
+            <div class="modal__shops">
+                <div class="modal__shop">
+                    <div class="modal__shop-icon">
+                        <img class="_view1" src="img/shop.png" alt="">
+                    </div>
+                    <img class="_view2" src="img/shop4.png" alt="">
+                    <span>Сайт автопродаж</span>
+                </div>
+                <div class="modal__shop">
+                    <div class="modal__shop-icon">
+                        <img class="_view1" src="img/shop2.png" alt="">
+                    </div>
+                    <img class="_view2" src="img/shop5.png" alt="">
+                    <span>Wildberries</span>
+                </div>
+                <div class="modal__shop">
+                    <div class="modal__shop-icon">
+                        <img class="_view1" src="img/shop3.png" alt="">
+                    </div>
+                    <img class="_view2" src="img/shop6.png" alt="">
+                    <span>Ozon</span>
                 </div>
             </div>
         </div>
